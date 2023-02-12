@@ -41,7 +41,7 @@ namespace TestProject
     {
         public static bool CanAttack(Queen white, Queen black)
         {
-            if (((white.Row - black.Row) == 0 || (black.Column + white.Column) == 0) || (((black.Column - black.Row) == (white.Column - white.Row)) || ((black.Column + black.Row) == (white.Column + white.Row))))
+            if (((white.Row - black.Row) == 0 || (black.Column - white.Column) == 0) || (((black.Column - black.Row) == (white.Column - white.Row)) || ((black.Column + black.Row) == (white.Column + white.Row))))
                 return true;
             else return false;
         }
