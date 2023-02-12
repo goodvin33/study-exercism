@@ -3,4 +3,4 @@
 using System.Data;
 using TestProject;
 
-Console.WriteLine(PerfectNumbers.CheckPerfect(28));
+Console.WriteLine(CollatzConjecture.Steps(0));
