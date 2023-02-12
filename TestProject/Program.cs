@@ -3,4 +3,4 @@
 using System.Data;
 using TestProject;
 
-Console.WriteLine(CollatzConjecture.Steps(0));
+Console.WriteLine(DndCharacter.Ability());
